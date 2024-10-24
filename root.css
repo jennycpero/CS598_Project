@@ -1,0 +1,30 @@
+.navbar-nav > li{
+    padding-left:60px;
+    padding-right:60px;
+  }
+
+.footer-beg {
+    padding-top: 10px;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+
+.footer-centerish {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+
+.letter-space-head {
+    letter-spacing: 15px;
+  }
+
+.secondary-nav {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+a:hover  {
+  text-decoration: none;
+}

@@ -40,17 +40,54 @@
                     <a class="nav-link text-muted secondary-nav" href="/registrar">Registrar ----></a>
                 </li>
                 <li class="nav-item secondary-nav h5">
-                    <a class="nav-link text-muted secondary-nav" href="/registrar/terms.html">Home ----></a>
+                    <a class="nav-link text-muted secondary-nav" href="/registrar/terms.html">Terms ----></a>
+                </li>
+                <li class="nav-item secondary-nav h5">
+                    <a class="nav-link text-muted secondary-nav" href="/registrar/terms.html">Create ----></a>
                 </li>
             </ul>
         </div>
     </nav>
 
-
     <div class="container-md">
         <div class="row pt-4">
             <div class="col offset-md-3">
-                <i class="h3 justify-content-center">TODO: Dashboard or something?</i>
+                <i class="h3 justify-content-center">How would you like to create your term?</i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card d-flex align-items-center justify-content-center" style="width:500px">
+                    <img class="card-img-top rounded" src="/img/whiteGradient.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <i class="fa fa-paste d-flex align-items-center justify-content-center" style="font-size:128px;color:black;"></i>
+                        <h4 class="pt-3 card-title text-body d-flex align-items-center justify-content-center">Duplicate Existing Term</h4>
+                        <p class="h6 pt-4 text-body d-flex align-items-center justify-content-center">Start with an existing term and then edit as needed</p>
+                        <a href="/registrar/duplicate.html" class="btn stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card d-flex align-items-center justify-content-center" style="width:500px">
+                    <img class="card-img-top rounded" src="/img/whiteGradient.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <i class="fa fa-database d-flex align-items-center justify-content-center" style="font-size:128px;color:black;"></i>
+                        <h4 class="pt-3 card-title text-body d-flex align-items-center justify-content-center">Import Dataset</h4>
+                        <p class="h6 pt-4 text-body d-flex align-items-center justify-content-center">Upload a .csv or .xlsx file of yur schedule for us to format</p>
+                        <a href="/registrar/import.html" class="btn stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+        <div class="row pt-5">
+            <div class="col-4 offset-4">
+                <a class="text-muted" href="/registrar/manual.html" style="text-decoration:none;">Create Manually (not recomended)</a>
             </div>
         </div>
     </div>
@@ -79,6 +116,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
